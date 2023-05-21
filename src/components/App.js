@@ -13,7 +13,6 @@ class App extends React.Component {
     this.timerID = setInterval(() => {
       this.tick();
     }, 1000);
-    );
   }
 
   tick() {
